@@ -9,7 +9,7 @@ from pytube import Playlist
 import time
 from selenium import webdriver
 
-videoURL = "https://www.youtube.com/watch?v=CYolKYOVB1M"
+PlaylistURL = "https://www.youtube.com/playlist?list=OLAK5uy_l2Xm9yuNUyMI33pZDmWAD88IdXWeHiKkM"
 
 options = webdriver.FirefoxOptions()
 driver = webdriver.Firefox(options=options)
@@ -75,5 +75,7 @@ def DownloadPlaylist(playlistURL):
     time.sleep(25)
     driver.quit()
 
-DownloadPlaylist("https://www.youtube.com/playlist?list=OLAK5uy_l2Xm9yuNUyMI33pZDmWAD88IdXWeHiKkM")
+
+
+DownloadPlaylist(PlaylistURL)
 #DownloadVideo(videoURL)
