@@ -5,6 +5,8 @@ pip install requests <br>
 pip install selenium <br>
 pip install pytube <br>
 
+if you're on arch linux and you yay install python-selenium. makes sure to yay install selenium-manager. for some reason they didn't add it as a dependency.
+
 edit PlaylistURL variable to the link of the playlist \n
 then run the file. EZ
 
